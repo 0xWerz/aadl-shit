@@ -65,6 +65,6 @@ def open_local_file(file_path):
 if __name__ == "__main__":
     website_url = "https://www.aadl3inscription2024.dz/AR/Inscription-desktop.php"  
     check_interval = 300  
-    max_attempts = None attempts, or None for infinite attempts
+    max_attempts = None
 
     check_website(website_url, check_interval, max_attempts)
